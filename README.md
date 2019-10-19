@@ -17,8 +17,6 @@ Prerequisites
 
 ## How to run
 
-A build of the image is available on the [docker hub](https://hub.docker.com/r/bedwuttipong/oracle/).
-
 The Oracle instance can be launched with this command :
 ```
 docker run -d -P --shm-size=1g -v db_data:/u01/app/oracle/oradata -p 1521:1521 <image name>:<tag>
@@ -26,7 +24,7 @@ docker run -d -P --shm-size=1g -v db_data:/u01/app/oracle/oradata -p 1521:1521 <
 
 ## Usage Example
 
-This image is intended to be a base image for your projects, so you may use it like this:
+A build of the image is available on the [docker hub](https://hub.docker.com/r/bedwuttipong/oracle/).
 
 ```
 docker run -d -P --shm-size=1g -v db_data:/u01/app/oracle/oradata -p 1521:1521 bwutti/oracle:11gXe-alpine
