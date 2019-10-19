@@ -43,4 +43,4 @@ TRANSACTIONS=610
 with the naming system and password ```password```.
 
 ## Thankful
-* [cosmomill](https://github.com/cosmomill/docker-alpine-oracle-xe)
+* [cosmomill](https://github.com/cosmomill/docker-alpine-oracle-xe), [alpine-glibc](https://hub.docker.com/r/cosmomill/alpine-glibc)
