@@ -40,7 +40,7 @@ TRANSACTIONS=610
 
 ## Connect to database
 
-with the naming system ```password```.
+with the naming system and password ```password```.
 
 ## Thankful
 * [cosmomill](https://github.com/cosmomill/docker-alpine-oracle-xe)
