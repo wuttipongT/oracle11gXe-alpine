@@ -29,7 +29,7 @@ docker run -d -P --shm-size=1g -v db_data:/u01/app/oracle/oradata -p 1521:1521 -
 This image is intended to be a base image for your projects, so you may use it like this:
 
 ```
-docker run -d -P --shm-size=1g -v db_data:/u01/app/oracle/oradata -p 1521:1521 -p 8080:8080 -it bwutti/oracle:11gxe-alpine
+docker run -d -P --shm-size=1g -v db_data:/u01/app/oracle/oradata -p 1521:1521 -p 8080:8080 -it bwutti/oracle:11gXe-alpine
 ```
 
 The default list of ENV variables is:
